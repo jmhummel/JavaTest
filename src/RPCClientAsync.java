@@ -83,7 +83,7 @@ public class RPCClientAsync {
 					
 					PrintWriter writer = null;
 					try {
-						writer = new PrintWriter("./movieLogs/"+movieID+".txt", "UTF-8");
+						writer = new PrintWriter("./"+movieID+".txt", "UTF-8");
 					} catch (FileNotFoundException e) {
 						// TODO Auto-generated catch block
 						e.printStackTrace();
